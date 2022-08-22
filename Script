@@ -1,0 +1,18 @@
+while true do
+    local args = {
+    [1] = "ProcessKey",
+    [2] = {
+        ["Key"] = "E"
+    }
+}
+
+game:GetService("ReplicatedStorage").NetworkFolder.GameFunction:InvokeServer(unpack(args))
+local args = {
+    [1] = "ProcessKey",
+    [2] = {
+        ["Key"] = "E"
+    }
+}
+
+game:GetService("ReplicatedStorage").NetworkFolder.GameFunction:InvokeServer(unpack(args))
+end
